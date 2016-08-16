@@ -1,0 +1,55 @@
+##### connection settings #####
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "~/Musik/"
+
+
+#lizer settins #####
+v
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30" 
+#visualizer_in_stereo = "yes"
+visualizer_look = "∙▋"
+#visualizer_type = "wave" (spectrum/wave)
+visualizer_type = "spectrum"
+#visualizer_color = "red,yellow,green,cyan,blue,red,yellow,green,cyan,blue,red,yellow,green,cyan,blue,red"
+visualizer_color = "yellow"
+
+#### timeouts and delays #####
+mpd_crossfade_time = "2"
+playlist_disable_highlight_delay = "3"
+message_delay_time = "2"
+
+song_status_format = "$2%a $7• $4%t $7• $3%b {}$7• $5%y$7"
+now_playing_prefix = "$b$8»$2»$4»$3» "
+now_playing_suffix = "$/b"
+user_interface = "alternative"
+playlist_display_mode = "columns" (classic/columns)
+autocenter_mode = "yes"
+progressbar_look = "─╼·"
+header_visibility = "yes"
+statusbar_visibility = "yes"
+titles_visibility = "yes"
+cyclic_scrolling = "yes"
+
+jump_to_now_playing_song_at_start = "yes"
+display_bitrate = "yes"
+ignore_leading_the = "yes"
+mouse_support = "yes"
+enable_window_title = "yes"
+external_editor = "vim"
+use_console_editor = "yes"
+
+##### colors definitions #####
+colors_enabled = "yes"
+empty_tag_color = "red"
+header_window_color = "cyan"
+volume_color = "red"
+state_line_color = "cyan"
+color1 = "default"
+color2 = "green"
+progressbar_color = "cyan"
+statusbar_color = "cyan"
+alternative_ui_separator_color = "cyan"
+
